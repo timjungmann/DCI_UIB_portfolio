@@ -12,6 +12,8 @@
 
 :root {
   font-size: 62.5%;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
@@ -392,7 +394,6 @@ div.mob-caption {
   }
 
   .header-nav {
-    /* background-color: rgba(247, 216, 1, .7); */
     order:2;
     flex-direction: column;
   }
@@ -476,10 +477,6 @@ div.mob-caption {
 
   span.mob-show {
     display: initial;
-  }
-
-  body {
-    overflow-x: hidden;
   }
   
   .d-grid {
