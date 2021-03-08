@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'ClubLithographer';
+  src: url(assets/ClubLithographer-Italic.woff)
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+background-color: #309DEC;
+}
+
+hr {
+  width: 98%;
+  margin: auto;
+  border-color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'ClubLithographer';
+}
+
+h1 {
+  font-size: 2.5em;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 1.3em;
+  padding-bottom: 15px;
+}
+
+h2 a {
+  font-family: 'ClubLithographer';
+  color: black;
+  text-decoration: none;
+}
+
+h1:hover, h2 a:hover {
+  color: rgba(254, 71, 68, 0.8);
+}
+
+header {
+  margin: 1em;
+}
+
+.top-nav {
+  position: absolute;
+  top:2%;
+  right:2%;
+}
+
+.bottom-nav {
+  margin: 2%;
+}
+
+a.button {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 0.5em 0.8em;
+  border: 1px solid #444444;
+  border-radius: 1.5em;
+}
+
+.top-nav a.button {
+  margin-left: 0.8em;
+}
+
+.bottom-nav a.button {
+  margin-right: 0.8em;
+}
+
+a.button:hover {
+  background-color: rgba(254, 71, 68, 0.8);
+}
+
+article {
+  background-color:#FBEABF;
+  width: 96%;
+  border-right: 1.5px solid #a1967b;
+  height: 500px;
+  margin: 2% auto;
+  border-radius: 0.7em;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width:50%;
+  display: inline-block;
+  vertical-align: top;
+  overflow:auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 30px;
+}
+
+.image-container1, .image-container2, .image-container3 {
+  border-radius: 0.7em 0 0 0.7em;
+  text-align:center;
+}
+
+.image-container1 {
+  background: url(assets/tofu.jpg) center/cover no-repeat;
+}
+
+.image-container2 {
+  background: url(assets/pho.jpg) center/cover no-repeat;
+}
+
+.image-container3 {
+  background: url(assets/udon.jpg) center/cover no-repeat;
+}
+
+ul {
+  list-style-type: "⟡ ";
+  line-height: 1.8em;
+}
+
+.ingredient-container {
+  padding: 30px 60px 0;
+}
