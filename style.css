@@ -12,6 +12,7 @@
 :root {
   font-size: 62.5%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -444,16 +445,16 @@ div.mob-caption {
 
 @media screen and (max-width: 550px) {
   .header{
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 3.5rem;
   }
 
   .header-left span.name {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   span.mob-hide {
